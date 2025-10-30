@@ -59,48 +59,63 @@ _Number of articles published per year._
 
 ## Title Screening Summary
 
-### 🧾 Independent Screening Process
+### Independent Screening Process
 - Two junior authors screened **5,8K article titles** independently.
 - Votes were consolidated and **Cohen’s kappa coefficient** was calculated at checkpoints to assess inter-rater agreement.
 
-### 🔄 Discrepancy Resolution
+### Discrepancy Resolution
 - When low agreement was detected:
   - Authors shared screening experiences.
   - Misunderstandings were clarified.
   - Conflicting articles were revisited separately.
 - This process led to a **Cohen’s kappa of 0.853**, indicating **almost-perfect agreement**.
 
-### 📊 Screening Outcome
+### Screening Outcome
 - **293 articles** were mutually agreed upon for abstract screening.
 - **5 articles** lacked abstracts (labeled E9), leaving **288 articles** for the next phase.
 
 ## Abstract Screening Summary
 
-### 🔍 Second Screening Round
+### Second Screening Round
 - Two junior authors screened **288 articles** using titles and abstracts.
 - Abstracts provided additional context to verify assumptions from the first round.
 
-### 📘 Inclusion for Further Review
+### Inclusion for Further Review
 - Articles with unclear abstracts were retained for full-text screening.
 - Discrepancies resolved through discussion with a senior author, following Kitchenham and Brereton’s guidance.
 
-### 📊 Screening Outcome
+### Screening Outcome
 - **162 articles excluded**, **126 articles** advanced to full-text screening.
 - Low exclusion rate indicates high quality of initial title-based selection.
 
 ## Full-Text Screening Summary
 
-### 📖 Third Screening Round
+### Third Screening Round
 - Two junior authors screened **126 full-text articles** for eligibility.
 - Each excluded article was labeled with its **main exclusion reason**, based on exclusion criteria from the previous section.
 
-### 🔄 Discrepancy Resolution
+### Discrepancy Resolution
 - All disagreements were resolved through discussion.
 - Senior author consulted when necessary, following Kitchenham and Brereton’s guidance.
 
-### 📊 Screening Outcome
+### Screening Outcome
 - **71 studies excluded**, **55 studies included** in the final review.
 - **PRISMA flow diagram** summarizes the search and screening process.
+
+### Exclusion Reasons
+
+| ***Exclusion Reason*** | ***Count of Studies*** |
+| :--- | ---: |
+| E6. Technique not feasible for consumers | 45 |
+| E8. Literature review, editorial, comment, etc. |  13 |
+| E7. Not focused on risk aspects | 4 |
+| E4.2 Cloud only as an enabler | 3 |
+| E5. Only cloud implementation or use case | 3 |
+| E4.1 Focus on other technology/concept | 2 |
+| E3. Decentralized cloud | 1 |
+| **Total** | **71** |
+
+## PRISMA Diagram
 
 ![PRISMA diagram](/prisma.png)
 _PRISMA diagram summarizing the screening process._
