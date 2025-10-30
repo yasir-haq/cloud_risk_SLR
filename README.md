@@ -1,7 +1,8 @@
 # Systematic Literature Review Protocol
 
 The complete screening results of all articles is available in this repository. 
-> [screening_results_all_records.csv](/screening_results_all_records.csv).
+> [screening_results_all_records.csv](/screening_results_all_records.csv)\
+> [data_extraction.csv](/data_extraction.csv)
 
 ## Review Objective and Research Questions
 The main goal of this work is to develop an understanding of both technical and non-technical risks on enterprises from the utilization of cloud services, and the risk management techniques that are feasible for them.
