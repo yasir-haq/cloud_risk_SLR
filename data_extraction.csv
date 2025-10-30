@@ -1,0 +1,195 @@
+Title,Main objective,Risk name,Risk description,By operational cyber risk,By ENISA's list of risk categories,Present in ENISA report?,"If ""No"", why? What changed?",Technique name,Technique description,By Ardagna (2015)
+Collusion resistant secret sharing scheme for secure data storage and processing over cloud,Propose risk management technique(s),,,,,,,Modified Samir Secret Sharing (MSSS),The technique encrypts the key before generating shares that will be distributed to multiple parties.,Encryption
+Cloud services and government digital sovereignty in Australia and beyond,Discuss and analyze risk(s),Sovereignty loss over government data,"Risks of losing sovereignty over government data being outsourced to offshore cloud infrastructure outside the country, including:
+- Lack of monitoring and control
+- Foreign interference
+- Supply chain defects and multitenancy risks
+- Policy risks",External - Service dependencies,Policy & Organizational,Yes,loss of governance,,,
+A fuzzy inference system (FIS) to evaluate the security readiness of cloud service providers,Propose risk management technique(s),,,,,,,Fuzzy inference system to evaluate security readiness of cloud service provider,Use the fuzzy logic process for CSP security assessment and to establish trust between a CSC and CSP even in the presence of impartial data sets; and to audit CSPs to determine their trust level.,Certification
+A Scalable Approach to Joint Cyber Insurance and Security-As-A-Service Provisioning in Cloud Computing,Propose risk management technique(s),,,,,,,a combined approach to security and cyber insurance provisioning in the cloud.,"Using stochastic optimization, we have presented a method of optimally provisioning both insurance and security services in the face of uncertainty regarding future pricing, incoming traffic, and cyber attacks.",Other: Insurance and SECaaS
+The emerging Cloud Dilemma: Balancing innovation with cross-border privacy and outsourcing regulations,Discuss and analyze risk(s),Cross-border privacy and outsourcing regulations risk,"This paper presents regulatory risks when outsourcing IT system, especially financial system, to cross-border cloud services. By using 3rd party cloud service, companies outsource their customer information to a 3rd party computing facilities which might be geographically distributed over multiple countries. Considering the nature of cloud computing infrastructure, the data might be replicated and distributed to different data servers in multiple countries with different regulations regarding data privacy.",External - Legal issues,Legal,Yes,,,,
+Cloud providers viability: How to address it from an IT and legal perspective?,Discuss and analyze risk(s); Propose risk management technique(s),Cloud provider business termination,"the Cloud Service Provider (CSP) go out of business, either by filing for bankruptcy or by simply shutting down operations, thus leaving its customers stranded without an infrastructure and, depending on the type of cloud service used, even without their applications or data",External - Business issues,Policy & Organizational,Yes,,cloud service viability risk management,"They propose a formula to measure cloud service viability, and address the problem by providing some IT, legal, and mixed solutions, distinguished by actor and if it is legal or technical. 
+Finally, they also summarize recommended solutions based on size and cloud delivery model.
+We take to emphasize the viability measurement aspect.",Certification
+Data integrity checking with reliable data transfer for secure cloud storage,Propose risk management technique(s),,,,,,,Auditing scheme for reliable data migration in clouds using proof of possession and deletion,"secure data transfer, provable data erasure, high error detection probability, confidential data storage
+
+guarantee the integrity of remote data and secure deletion of the transferred data on the original cloud",Audit/Compliance
+Defining Intercloud Security Framework and Architecture Components for Multi-cloud Data Intensive Applications,Propose risk management technique(s),,,,,,,INTERCLOUD SECURITY FRAMEWORK (ICSF),"The  ICSF defines a  set of functionalities for identity and trust management, access control, and secure communication in the multi-cloud environment.",Access control
+Critical analysis of vendor lock-in and its impact on cloud computing migration: a business perspective,Discuss and analyze risk(s); Propose risk management technique(s),vendor lock-in problem,"The situation where customers are dependent (i.e. locked-in)
+on a single cloud provider technology implementation
+and cannot easily move in the future to a different vendor without substantial costs, legal constraints, or technical incompatibilities 
+[Michael A, Armando F, Rean G, Anthony DJ, Randy HK, Andrew K, Gunho L, David AP, Ariel R, Ion S, Matei Z (2010) A view of cloud computing. Commun ACM 53(4):50–58]",System & Tech - Software,Policy & Organizational,Yes,,Strategic approaches to address vendor lock-in,"(i) create awareness of the complexities and dependencies that exist among cloud-based solutions; 
+(ii) assess providers’ technology implementation such as API and contracts for potential areas of lock-in; 
+(iii) select vendors, platforms, or services that support more standardized formats and protocols based on standard data structures
+(iv) ensure there is sufficient portability",Other: Interoperability
+Cloud computing adoption framework: A security framework for business clouds,Propose risk management technique(s),,,,,,,Cloud Computing Adoption Framework (CCAF) multi-layered security,"CCAF multilayered security is based on the development and integration of three major security technologies: firewall, identity management, and encryption based on the development of enterprise file sync and share technologies.",
+Optimal coding and allocation for perfect secrecy in multiple clouds,Propose risk management technique(s),,,,,,,Optimal coding and allocation for data sharing platform in multi-clouds setting,"The paper proposes a technique to design a data sharing system using multiple clouds that optimized multiple aspects including budget, storage allocation, complexity, and ensure perfect secrecy.",Encryption
+Remote data possession checking with enhanced security for cloud storage,Discuss and analyze risk(s); Propose risk management technique(s),Covered data corruption in cloud servers by CSP,"the server can deceive the users to believe that their data are well held by replaying previous evidence or re-constructing the deleted data blocks from the corresponding tags in the integrity checking process, while their data have been partially discarded in fact. 
+
+• Replace attack: the server can replace a challenged and corrupted pair of data blocks and tag (Fj, Tj) with another valid pair of data block and its corresponding tag (Fi, Ti) if Fj or Tj has been deleted.
+• Forge attack: the server enables us to forge a valid tag on some data block to deceive the users.
+• Replay attack: the server is able to generate a valid proof R from previous proofs, without accessing the stored data.
+• Deletion attack: the server may generate a valid proof R making use of the tags T or other information, even if the user’s entire file has been deleted",People - Intentional,Technical,Yes,"But some are not present, e.g. data manipulation, accidental data deletion",Improved remote data possession checking (RDPC) with enhanced security for cloud storage,#NAME?,Certification
+CloudSky: A controllable data self-destruction system for untrusted cloud storage networks,Propose risk management technique(s),,,,,,,CloudSky: A Controllable Data Self-Destruction System for Untrusted Cloud Storage Networks,#NAME?,Encryption
+A scalable and dynamic application-level secure communication framework for inter-cloud services,Propose risk management technique(s),,,,,,,Inter-Cloud Virtual Private Network (ICVPN),The core technique employed by the ICVPN is the use of two tiers of P2P overlays: universal overlay and VPN overlay. Universal overlay aggregates multiple VPN overlays providing access to VMs in different IaaS clouds.,Encryption
+A framework to support selection of cloud providers based on security and privacy requirements,Propose risk management technique(s),,,,,,,Security and privacy requirement model and notation for cloud context to support provider selection,"The authors proposed a framework consisting of metamodel, model notation, and process to identify security and privacy requirements and dependencies in order to quantify the satisfiability of alternative providers. ",Other: Requirement engineering
+"A pattern-based method for establishing a cloud-specific information security management system: Establishing information security management systems for clouds considering security, privacy, and legal compliance",Propose risk management technique(s),,,,,,,PAttern-based method for establishing a Cloud-specific information Security management system (PACTS),structured and formal methods for establishing a cloud-specific Information Security Management System (ISMS) according to ISO27001,Other: Risk management plan
+Security concerns in popular cloud storage services,Discuss and analyze risk(s),"Data leakage in major cloud storage and sync services due to security weaknesses, especially due to Shadow IT practice (use of unofficial IT tool)","This paper analyzes security weaknesses of major cloud storage services that might lead to data leakage, including nondead URL, uncertain identities, unauthorized resharing, indiscriminate accssing URL, NonHTTPS shortened URL, no privacy on sharing, sharing of trash files, and fixed URL.",System & Tech - Software,Technical,No,recent development in file sharing using cloud storages and the trending use of free and public file sharing platforms,,,
+Evaluating cloud deployment scenarios based on security and privacy requirements,Propose risk management technique(s),,,,,,,security and privacy requirements engineering method for the cloud,"This paper presents a framework, consists of metamodel and process, to perform security and privacy requirement analysis of a system that will be deployed in cloud environment. The framework has 3 activities: organizational analysis (actors, business process, etc), security and privacy requirement analysis, and selection of cloud deployment model. ",Other: requirement engineering
+Security risk assessment of cloud carrier,Propose risk management technique(s),,,,,,,Security risk assessment of cloud carrier,"The paper proposes a technique to quantify the risk on the networks between cloud provider servers and the end users. They calculate the risk based on known vulnerabilities of each routers along the paths categorized by confidentiality, availability, and integrity risk and probability of exploit.",Monitoring
+A secure data self-destructing scheme in cloud computing,Propose risk management technique(s),,,,,,,KP-TSABE : Key-policy attribute-based encryption with time-specified attributes," secure data self-destructing scheme in cloud computing:
+- every ciphertext is labeled with a time interval while private key is associated with a time instant
+- support user-defined authorization period
+- provide fine-grained access control during the period
+- The sensitive data will be securely self-destructed after a user-specified expiration time",Access control
+Privacy preserving policy-based content sharing in public clouds,Propose risk management technique(s),,,,,,,ACV-BGKM (access control vector - broadcast group key management),#NAME?,Encryption
+HPISecure: Towards data confidentiality in cloud applications,Propose risk management technique(s),,,,,,,HPISecure,"HPISecure allows the user to store an encrypted version of his data on the cloud without breaking the functionality of the application. 
+A middleware installed on a client machine en/decrypts data in transit, by intercepting the HTTP request/response objects and does data fragmentation and encryption on the objects before distributing them to different cloud storages. (what about HTTPS?)",Encryption
+Security-by-design in multi-cloud applications: An optimization approach,Propose risk management technique(s),,,,,,,Security-by-design SDLC for multi-cloud app,"definition of a security-by-design development process, in which security is taken into account from the early stages of development and the deployment of applications is identified through an optimization process aimed at fulfilling the existing performance and security constraints while ensuring the best compromise between deployment cost and the overall level of security achieved",Other: Secure SDLC
+From virtualization security issues to cloud protection opportunities: An in-depth analysis of system virtualization models,Discuss and analyze risk(s),Security issues in various virtualization models,The paper summarizes various vulnerabilities of each virtualization type and discusses attacks exploiting such vulnerabilities. The paper also summarizes the possible countermeasures.,System & Tech - Software,Technical,Yes,,,,
+DDoS attacks in cloud computing: Collateral damage to non-targets,Discuss and analyze risk(s),Collateral Damage to Non-targets of DDoS attacks in Cloud computing,"When a VM hosted in a cloud infrastructure is being a target of a DDoS attack, the effect of the attack will also affect other stakeholders, including co-hosted VM, host physical server, neighbor physical server, networks, and cloud providers. This work tries to quantify the collateral damage of this attack on those aforementioned stakeholders.",People - Intentional,Technical,Yes,,,,
+Cost-Effective Malware Detection as a Service over Serverless Cloud Using Deep Reinforcement Learning,Propose risk management technique(s),,,,,,,"Malware Detection as a Service Over Serverless Cloud Using Deep Reinforcement
+Learning","They compare different techniques to detect malware using reinforcement learning, for both on-premise, VPS, and serverless. ",Intrusion detection/protection
+Checking Security Properties of Cloud Service REST APIs,Discuss and analyze risk(s); Propose risk management technique(s),REST APIs security risk,"In this paper, we introduce four security rules that capture
+desirable properties of REST APIs and services.
+• Use-after-free rule. A resource that has been deleted
+must no longer be accessible.
+• Resource-leak rule. A resource that was not created
+successfully must not be accessible and must not “leak”
+any side-effect in the backend service state.
+• Resource-hierarchy rule. A child resource of a parent
+resource must not be accessible from another parent
+resource.
+• User-namespace rule. A resource created in a user
+namespace must not be accessible from another user
+namespace",System & Tech - Software,Technical,No,"The trending use of REST API as an industry-standard in inter-system communication and integration driven by new cloud-based services and applications, which was not very popular previously.",Stateful REST API fuzzing checkers to check API violations according to a set of rule,"• We introduce rules that describe security properties of
+REST APIs.
+• We design and implement active checkers to test and
+detect violations of these rules.
+• We present detailed experimental results evaluating the
+performance and effectiveness of these active checkers
+on three production cloud services.
+• With these checkers, we found new bugs in several
+production Azure and Office-365 cloud services, and we
+discuss their security implications",Testing
+Cloud-Trust-a Security Assessment Model for Infrastructure as a Service (IaaS) Clouds,Discuss and analyze risk(s); Propose risk management technique(s),Advanced persistent threat in cloud computing system,The paper discuss attack paths of APT in cloud computing system by listing all attacks that lead to accessing the gold data and model the risk of each scenario as bayesian networks.,System & Tech - Systems,Technical,Yes,"Multiple times, as various attacks presented as parts of the attack paths.",Cloud-Trust,"Cloud-Trust provides a set of high-level quantitative risk assessments of APT by providing calculation of two major metrics: probability an APT can access high value data, and probability the APT is detected by cloud tenant or provider security monitoring system. Cloud-Trust is intended for cloud consumers to compare between alternative cloud providers with different cloud architecture and implemented security measure.",Intrusion detection/protection
+A pairing-free certificate-based proxy re-encryption scheme for secure data sharing in public clouds,Propose risk management technique(s),,,,,,,Certificate-based proxy re-encryption without bilinear pairing,"Based on Schnorr’s signature scheme [31,32] and Fujisakiand Okamoto’s hash-enhanced El Gamal public-key encryption scheme [33], we construct a pairing-free CB-PRE scheme. In the random oracle model, we strictly prove that it achieves chosen-ciphertext security under the hardness assumption of the computational Diffie-Hellman problem. Without bilinear pairing operations, the proposed scheme significantly decreases the computation cost and is more efficient than the previous pairing-based CB-PRE schemes. This good property makes it be particularly suitable to be employed on computation-limited or power-constrained devices.",Encryption
+A User-Centric Data Protection Method for Cloud Storage Based on Invertible DWT,Propose risk management technique(s),,,,,,,Selective encryption on fragmented data with different levels of protections,"Our method is based on the invertible Discrete Wavelet Transform (DWT) to divide agnostic data into three fragments with three different levels of protection. Then, these three fragments can be dispersed over different storage areas with different levels of trustworthiness to protect end users’ data by resisting possible leaks in Clouds.",Encryption
+Saudi cloud infrastructure: a security analysis,Discuss and analyze risk(s); Propose risk management technique(s),Unsecured web applications,Presence of vulnerabilities in web applications due to bad programming practices. ,System & Tech - Software,Not-specific to Cloud,No,?,Mechanisms for ensuring security and integrity within web and cloud service application development,"- a modified SDLC structure with proposed additional components introduced at each stage in the pipeline towards ensuring overall service quality and integrity that propagates all the way through the design stage and continues to hold even for deployed online systems.
+- proposed mechanisms:
++ security awareness
++ application-centered development
++ Reliable threat modeling
++ Post-deployment security auditing",Other: Secure SDLC
+Identity-Based Privacy Preserving Remote Data Integrity Checking for Cloud Storage,Propose risk management technique(s),,,,,,,Identity-Based Privacy-Preserving Remote Data Integrity Checking for Cloud Storage,"The main contributions of this article are summarized as
+follows.
+1) We present a new identity-based RDIC scheme, which is
+able to efficiently audit data integrity and eliminate the
+problem of certificate management.
+2) By randomizing the challenged data block, our scheme
+preserves the data privacy against the TPA, namely, the
+TPA learns nothing about the data within the process of
+data integrity checking.
+3) We prove the security of our scheme under the given
+security model. Experiment result exhibits that our scheme
+has better performance and feasibility",Encryption
+Restricting the Number of Times That Data Can Be Accessed in Cloud Storage Using TrustZone,Discuss and analyze risk(s); Propose risk management technique(s),Ineffective or uncertain data deletion in cloud storage,The cloud server still keeps the data even after a deletion activity is performed by the data owner. The data is not properly deleted and still exists in the server.,System & Tech - Software,Technical,Yes,,TrustZone: a counter-based assured data deletion scheme,#NAME?,Encryption
+Measuring and Mitigating the Risk of IP Reuse on Public Clouds,Discuss and analyze risk(s),Risk of IP Reuse on public clouds due to latent configuration,"cloud squatting: an adversary allocates resources in the cloud (e.g., IP addresses) and thereafter leverages latent configuration to exploit prior tenants (using an IP address in a public cloud previously used by other tenants to mimic/masquerade the previous tenant).
+
+it comes from the nature of cloud provisioning - reusing old IP addresses - but also conducted by malicious actors intentionally.",People - Intentional,Technical,No,"this is a rather new risk, cloud squatting is made possible with high dynamics in cloud provisioning i.e., service can be provisioned in seconds, tenant and provider changes, especially in the use of cloud broker.",,,
+Catch Me if You Can: A Closer Look at Malicious Co-Residency on the Cloud,Discuss and analyze risk(s),Co-residency attack (Isolation failure),"Once an attack VM is able to co-reside with a victim VM on
+the same physical machine, it can launch arbitrary attacks
+(e.g., using side channels to achieve information leakage)
+to compromise the security of the victim VM.",People - Intentional,Technical,Yes,,,,
+Co-Residence Data Theft Attacks on N-Version Programming-Based Cloud Services with Task Cancelation,Discuss and analyze risk(s),Co-Residence Data Theft Attacks,This paper models the co-residence attack on a specific type of cloud setup using multiple service component version (SCV) running in parallel. ,People - Intentional,Technical,Yes,,,,
+Identifying Cloud Computing Risks based on Firm’s Ambidexterity Performance using Fuzzy VIKOR Technique,Discuss and analyze risk(s); Propose risk management technique(s),Loss of firm's innovative performance due to temporary cloud service unavailability,"The study finds that the ‘‘infrastructural breakdown that results in temporary service unavailability’’ risk factor is the most prominent one with an impact on the innovative performance of the firms (considering exploration and exploitation performance, unable to show innovative performance).
+",System & Tech - Software,Policy & Organizational,Yes,,Using ambidexterity (ability to balance between exploration and exploitation for innovation) and fuzzy logic to measure the impact of cloud risks for each firm,"This study proposes a technique to measure/quantify the risks in using cloud service namely to measure how big each risk will influence the firm's ability to innovate, which is the ability to explore new information/resources and exploit existing information/resources. ",Other: Requirement engineering
+Empirical evaluation of a cloud computing information security governance framework,Propose risk management technique(s),,,,,,,ISGcloud: Information Security Governance in Cloud,"a framework based on security guidelines and standards that can be adopted by any organization that wishes to develop a security governance structure
+Consists of 6 stages:
+1. Planning / Strategy Definition; 
+2. Cloud Security Analysis; 
+3. Cloud Security Design; 
+4. Cloud Implementation / Migration; 
+5. Secure Cloud Operation;
+6. Cloud Service Termination
+
+And 4 core governance processes:
+a) Evaluate the current and future use of IT; 
+b) Direct preparation and implementation of plans and 
+policies to ensure that the use of IT meets business objectives; c) Monitor conformance to policies and performance against the plans; and 
+d) Communicate the knowledge and policies that are required in ISG
+
+The framework also developed a set of metrics for each ISG goal, a set of security requirements, ",Other: Governance
+A trust management framework for clouds,Propose risk management technique(s),,,,,,,Trust management framework and measurement for cloud computing platforms,"The paper proposes a concept namely trustability which refers to the trust level of a system under a certain attack. They calculate the trust level of nodes as the aggregation of the trust level of tasks running in the node, based on the incoming and outgoing flows to and from the tasks, accordingly. The technique assumes the abnormality of each flow is known (provided by other systems). The aim is to help cloud customers make decisions: migrating tasks from suspect nodes to trustworthy nodes, dynamically allocating resources, and managing the trade-off between the degree of redundancy and cost of resources.",Monitoring
+ProSAS: Proactive Security Auditing System for Clouds,Propose risk management technique(s),,,,,,,ProSAS: PROACTIVE SECURITY AUDITING SYSTEM,"- proactive auditing to prevent violations to security policies at runtime with a practical response time
+- build model by learning from critical events from historical data e.g. log (detect violations of security policies using offline auditing tools )
+- it applies that tool to verify the current cloud configurations
+- identifies any violation of a security policy reported by the tool
+- identify log entries for the period during which a violation has occurred
+- shortlist the candidate's critical events for the violation by eliminating irrelevant log entries from the collected log entries
+- identify the responsible critical event for the violation.
+- intercept runtime events, predict a most probable future event, build a watchlist for future events
+- enforce security policies based on verification results at runtime",Monitoring
+Towards a framework for trustworthy data security level agreement in cloud procurement,Propose risk management technique(s),,,,,,,trustworthy data security level agreement (TDSLA) capability framework,"new assurance mechanism for service provisioning based on discrete levels of security assurance incorporated into the formulation of a service level agreement (SLA)
+The framework presented in Figure 4 consists of several categories, depicted in five main categories as proposed principles, as follows:
+1. Classifying Government Data;
+2. Identifying Data Confidentiality Risks;
+3. Defining SLA Data Confidentiality Requirements;
+4. Provisioning Data Confidentiality Capabilities; and
+5. Formulating Discrete Security Assurance Levels",SLA
+Cloud accounting risks and mitigation strategies: evidence from Australia,Discuss and analyze risk(s),Risks of using a cloud-based accounting system,"The identified risks specific to cloud accounting were (i) financial statement reliability, (ii) legal compliance, (iii) location of data, and (iv) ownership of data, which according to TOE can all be classified under Environment. 
+
+Under Technology, Internet stability and availability, data security, cloud server stability and
+availability etc, leads to compromise in CIA triad.
+
+Under Organization, as users of cloud accounting become accustomed to particular cloud-accounting software, dependence on vendors and asset specificity is likely to increase (staff-resistance --> locked-in --> vendor opportunism.",,,,,,,
+A risk assessment model for selecting cloud service providers,Propose risk management technique(s),,,,,,,CARAM (cloud adoption risk assessment model),"• A questionnaire for CSCs
+• A tool and an algorithm to classify the answers to
+Cloud Assessment Initiative Questionnaire (CAIQ)
+to discrete values
+• A model that maps the answers to both
+questionnaires to risk values
+• A multi-criteria decision approach with posterior
+articulation of CSC preferences for relative risk
+analysis, using a few parameters for security, privacy
+and quality of service, allowing to to quickly and
+reliably compare multiple CSPs",Certification
+Privacy preserving model: a new scheme for auditing cloud stakeholders,Propose risk management technique(s),,,,,,,"A scheme and model to audit cloud stakeholders, especially TPA and CSP",#NAME?,Audit/Compliance
+Novel efficient techniques for real-time cloud security assessment,Propose risk management technique(s),,,,,,,fQHP and Moving Intervals Process,"QHP is a methodology to implement SecSLA by ranking different offers from CSPs against the requirements of a CSC. It quantifies the security level using [0,n] notation where 0 means no security measure is provided and n means the highest level of security, for both CSP offers and CSC required value. It also provides a priority matrix to form a single score (eigenvalue) to aggregate the fitness of each offer.
+
+fQHP and MIP are improved versions of QHP that offer simplified calculation and finer-grained comparison to show over-provisioning offers, respectively.",SLA
+A security requirements modelling language for cloud computing environments,Propose risk management technique(s),,,,,,,A Security Requirements Modelling Language for Cloud Computing Environments,"- novel security modelling language and a set of original analysis techniques, for capturing and analyzing security requirements for
+cloud computing environments
+- elicit, model and analyse security requirements for cloud infrastructures
+- A cloud meta-model aligning concepts between security engineering, goal-based requirements engineering and cloud computing
+- A  modelling language describing cloud computing concepts, relationships and properties.
+- A machine-readable syntax notation to unambiguously describe the modelling language.
+- Three security analysis techniques; cloud security analysis, security mitigation analysis, and transparency analysis.
+",Other: Secure SDLC
+A Risk Assessment Framework for Cloud Computing,Propose risk management technique(s),,,,,,,A Risk Assessment Framework for Cloud Computing,"The main contributions of this paper are:
+- A risk assessment framework for cloud computing. Risk assessment is supported at service deployment and operation,  and benefits both end-users as well as infrastructure providers.
+- A  model for infrastructure providers to  assess  at service  operation  the  risk  of  failure  of  1)  physical nodes; 2) VMs; 3) SLAs, and 4) entire cloud infrastructure.
+- An  evaluation  of  the  risk  model  on  a  cloud  infrastructure and through simulation",SLA
+Application design phase risk assessment framework using cloud security domains,Propose risk management technique(s),,,,,,,risk assessment framework for clients’ applications during the design phase (secure SDLC),"- Design and develop a novel design phase risk assessment framework by introducing cloud security metrics through the semi-automated generation of cloud misuse patterns. 
+- Identify critical application elements to be protected in the event of different attacks and provide a deeper level of granularity to asset-level classification technique by representing application data flow diagrams (DFD) as a probabilistic state transition diagram in conjunction with the concepts of percolation centrality [32] for estimating the spread of infections in communities. 
+- Simulate the proposed framework on a use case scenario analyzing the effectiveness of considering cloud security metrics during the design phase risk assessment of an application. The key findings demonstrate how to quantitatively and qualitatively obtain a distinction in terms of prioritizing the security of multiple system resources that belong to the same security asset level.",Other: Secure SDLC
+Towards a trust evaluation middleware for cloud service selection,Propose risk management technique(s),,,,,,,TRUSS: Trust evaluation middleware for cloud service selection,A trustworthy cloud service selection framework is proposed by combining both objective measurement (using QoS monitoring) and subjective measurement (user feedback rating).,Certification
+Multi-authority fine-grained access control with accountability and its application in cloud,Propose risk management technique(s),,,,,,,Multi-authority fine-grained access control with accountability and its application in cloud,"a privacy-aware multi-authority ciphertext-policy ABE scheme with
+accountability, which hides the attribute information in the ciphertext and allows tracing the dishonest user
+identity who shares the decryption key.",Encryption
+Continuous auditing and threat detection in multi-cloud infrastructure,Propose risk management technique(s),,,,,,, CSBAuditor,#NAME?,Monitoring
+Cloud security engineering: Early stages of SDLC,Propose risk management technique(s),,,,,,,Cloud protection framework," This framework aims at adding an extra security level at the early stages of
+the CSDLC, which has been further illustrated by a case study showing the applicability of the framework.
+
+The proposed Cloud protection framework includes five basic
+levels of protection as mentioned below: (i) Storage-level,
+(ii) Service-level, (iii) Hypervisor-level, (iv) Record-level, and
+(v) Datacenters-level",Other: Secure SDLC
+SecRBAC: Secure data in the Clouds,Propose risk management technique(s),,,,,,,SecRBAC,"This paper presents a data-centric access control solution with enriched role-based expressiveness in which security is focused on protecting user data regardless of the Cloud service provider that holds it, method:
+-  identity-based and proxy re-encryption techniques 
+- authorization rules are cryptographically protected
+-  The authorization model provides high expressiveness with role and resource hierarchy support
+- Acess control computation delegated to the CSP, but
+being unable to grant access to unauthorized parties",Access control
+A Study on the Security Implications of Information Leakages in Container Clouds,Discuss and analyze risk(s), INFORMATION LEAKAGES IN CONTAINER CLOUDS,"This paper discusses the implication of a vulnerability in container clouds, i.e., a side channel between the container and the host OS that allows malicious tenants to gather information about the host and enables them to reach co-residency, build the covert channel to exchange information between containers, and to execute synergistic power attacks (an optimized power attack to overload the physical server by exploiting power spikes from benign processes or orchestrate multiple attacks at the same time.",System & Tech - Software,Technical,Yes,,,,
+A Formal Approach for the Identification of Authorization Policy Conflicts within Multi-Cloud Environments,Discuss and analyze risk(s); Propose risk management technique(s),Authorization conflicts in multi-Cloud environments,"Different syntax, semantic, policy, and authorization models in Identity and Access Management among cloud providers create a conflict of access control policies in a multi-cloud setting.",System & Tech - Systems,Policy & Organizational,No,"Multicloud concept was not very mature back then, because consumers did not have to use multiple providers for their projects, e.g., due to simplicity or scale of the project.",Multi-cloud policy aggregator and evaluator,Identifying authorization policy conflicts and aggregating them.,Access control
