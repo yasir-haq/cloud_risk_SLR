@@ -1,8 +1,10 @@
 # Systematic Literature Review Protocol
 
-The complete screening results of all articles is available in this repository. 
-> [screening_results_all_records.csv](/screening_results_all_records.csv)\
-> [data_extraction.csv](/data_extraction.csv)
+The complete results of all articles is available in this repository. 
+1. [screening_results_all_records.csv](/screening_results_all_records.csv) : contains all 5K titles from literature searching including the individual votes and verdicts for each article at all screening stages.
+2. [data_extraction.csv](/data_extraction.csv) : contains the data extracted from selected articles.
+3. [quality_assessment_result.csv](/quality_assessment_result.csv) : contains the results of quality assessment based on the protocol and verbatim checklist from the following paper. See [the list of quality assessment checklist](#quality-assessment-checklist).
+> Kitchenham, B., & Brereton, P. (2013). A systematic review of systematic review process research in software engineering. Information and Software Technology, 55(12), 2049–2075. https://doi.org/10.1016/j.infsof.2013.07.010
 
 ## Review Objective and Research Questions
 The main goal of this work is to develop an understanding of both technical and non-technical risks on enterprises from the utilization of cloud services, and the risk management techniques that are feasible for them.
@@ -119,7 +121,22 @@ _Number of articles published per year._
 ## PRISMA Diagram
 
 ![PRISMA diagram](/prisma.png)
+
 _PRISMA diagram summarizing the screening process._
+
+## Quality Assessment Checklist
+
+QA1.	Is there a clear statement of the aims of the study?\
+QA2.	Is there an adequate description of the context in which the research or observation was carried out?\
+QA3.	Was the research method appropriate to address the aims of the research?\
+QA4.	Was the recruitment strategy (for human-based experiments and quasi-experiments) or experimental material or context (for lessons learnt) appropriate to the aims of the research?\
+QA5.	For empirical studies (apart from Lessons Learnt), was there a control group or baseline with which to evaluate risk management techniques?\
+QA6.	For empirical studies (apart from Lessons Learnt), was the data collected in a way that addressed the research issue?\
+QA7.	For empirical studies (apart from Lessons Learnt), was the data analysis sufficiently rigorous?\
+QA8.	Has the relationship between researcher and participants been considered to an adequate degree?\
+QA9.	Is there a clear statement of findings?\
+QA10.	Is the study of value for research or practice?
+
 
 ## Records
 
